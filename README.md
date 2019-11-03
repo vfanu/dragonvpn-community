@@ -13,3 +13,9 @@ You can now run create_vpn.sh however and whenever you like to generate a new VP
 1) An AWS Account (https://aws.amazon.com/) 
 2) Install Terraform (https://www.terraform.io/downloads.html)
 3) You need to subscribe to FoeHammer (https://aws.amazon.com/marketplace/pp?sku=17o427dphhoas6wr9kqcbztvo)
+
+
+## How Do I Get Started ##
+ .... 
+ 
+ 
