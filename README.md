@@ -37,11 +37,15 @@ After you have created resources in AWS you now almost ready to run create_vpn.s
 If you want to get your connection file via email then you need to edit foehammer-vpn/main.tf to include your email address.
 
 E.g If your email was 'user@myemailaddress.com' the you would change it from:
+
 echo "_enter_email_address_" >> /home/ubuntu/userdata.txt
+
 to:
+
 echo "user@myemailaddress.com" >> /home/ubuntu/userdata.txt
 
 or if you dont want to get this via email and would prefer to scp it from the server then delete these lines:
+
 userdata_email = <<EOF
 #!/bin/bash
 echo "_enter_email_address_" >> /home/ubuntu/userdata.txt
