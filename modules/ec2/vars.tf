@@ -11,7 +11,7 @@ variable "instance_type" {
 }
 
 variable "vpc_id" {
-  default = "vpc-01b31e01064045874"
+  default = ""
 }
 
 variable "ssh_key" {

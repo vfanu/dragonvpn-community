@@ -11,7 +11,6 @@ module "my_ec2_vpn" {
   spot_price     = "0.0116"
   request_spot   = "true"
   on_demand      = "false"
-  //vpc_id        = "vpc-01b31e01064045874"
   ssh_key        = "dvpn_key"
   userdata_email = <<EOF
 #!/bin/bash
